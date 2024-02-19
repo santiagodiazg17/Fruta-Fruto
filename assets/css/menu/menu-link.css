@@ -1,0 +1,15 @@
+.menu__link{
+    font-size: larger;
+    color: #808080;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.menu__link.active{
+    color: #333333;
+}

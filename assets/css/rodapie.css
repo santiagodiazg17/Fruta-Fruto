@@ -1,0 +1,34 @@
+.rodapie{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.rodapie-org{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rodapie-org2{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 0){
+    .rodapie{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+ }
+
+ @media screen and (min-width: 768px){
+    .rodapie{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+ }
